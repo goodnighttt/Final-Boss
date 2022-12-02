@@ -17,7 +17,7 @@ public class PlayerMovement : MonoBehaviour
     public float m_timer = 0;
     public Animator anim;
     private bool run;
-    public Transform MassCentre;
+   // public Transform MassCentre;
     public Transform GroundCheck;
     public float CheckRadius = 1f;
     private bool IsGround;
