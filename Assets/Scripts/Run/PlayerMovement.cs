@@ -87,7 +87,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Select()
     {
-        GameObject[] enemy = GameObject.FindGameObjectsWithTag("Slime");//得到所有怪物
+        GameObject[] enemy = GameObject.FindGameObjectsWithTag("Enemy");//得到所有怪物
         List<GameObject> tempList = new List<GameObject>();
         //把符合攻击条件的怪物放在一个列表里面
         for (int i = 0; i < enemy.Length; i++)
@@ -282,22 +282,35 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //与NPC进行交互
-        if(Input.GetKeyDown(KeyCode.E))
-        {
-            float interactRange = 2f;
-            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
-            foreach(Collider collider in colliderArray)
-            {
-                if(collider.TryGetComponent(out NPCInteract nPCInteract))
-                {
-                    nPCInteract.Interact();
-                }
-            }
-        }
-    
+        //GetInteractbleObject();
+        //if (Input.GetKeyDown(KeyCode.E))
+        //{
+        //    float interactRange = 2f;
+        //    Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+        //    foreach (Collider collider in colliderArray)
+        //    {
+        //        if (collider.TryGetComponent(out NPCInteract nPCInteract))
+        //        {
+        //            nPCInteract.Interact();
+        //        }
+        //    }
+        //}
+
     }
 
- 
+    public NPCInteract GetInteractbleObject()
+    {
+        float interactRange = 2f;
+        Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+        foreach (Collider collider in colliderArray)
+        {
+            if (collider.TryGetComponent(out NPCInteract nPCInteract))
+            {
+                return nPCInteract;
+            }
+        }
+        return null;
+    }
   
 
 
@@ -306,7 +319,7 @@ public class PlayerMovement : MonoBehaviour
 
         IsGround = Physics.CheckSphere(GroundCheck.position, CheckRadius, layerMask);
         
-            //Debug.Log(IsGround);
+        //Debug.Log(IsGround);
 
         if (Input.GetKey(KeyCode.W)|| Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.S) || Input.GetKey(KeyCode.D))
         {

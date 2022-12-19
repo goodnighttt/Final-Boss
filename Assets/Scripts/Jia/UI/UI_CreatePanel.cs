@@ -20,6 +20,11 @@ public class UI_CreatePanel : MonoBehaviour
     private void CloseButtonClick()
     {
         SetActive(false);//关闭
+        GameObject.Find("Slime_01").GetComponent<NPCInteract>().enabled = true;
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ThirdPerson>().enabled = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player_C>().enabled = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
+        Time.timeScale = 1f;
     }
     //修改面板显示
     public void SetActive(bool isShow)

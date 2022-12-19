@@ -32,6 +32,7 @@ public class UIManager : MonoBehaviour
     //打开建造面板
     public void ShowCreatePanel()
     {
+        //Time.timeScale = 0f;
         createPanel.SetActive(true);
     }
 }

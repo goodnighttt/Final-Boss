@@ -1,0 +1,104 @@
+[33mcommit 4228f1affe3814f9ab2ccc869caa90da7362cb39[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Mon Dec 19 22:44:24 2022 +0800
+
+    完善NPC对话
+
+[33mcommit 471431f52eada8590ab42c9014d4e6d17c6743f7[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Mon Dec 19 21:28:28 2022 +0800
+
+    NPC对话面板
+
+[33mcommit 22b78f942e405251940466dbf6f959908dfb20ea[m[33m ([m[1;31morigin/master1[m[33m)[m
+Merge: c94e1ca6 0cef1ffa
+Author: Joreoooo <2277130231@qq.com>
+Date:   Mon Dec 19 15:26:09 2022 +0800
+
+    场景搭建
+
+[33mcommit c94e1ca621f75b64e89977d9eb953a1d7972f849[m
+Author: Joreoooo <2277130231@qq.com>
+Date:   Mon Dec 19 15:22:14 2022 +0800
+
+    场景搭建
+
+[33mcommit f7aa1eee99b8b5f458758bcd9388934a12e1418b[m
+Merge: 8ab10932 a384ea8f
+Author: Joreoooo <2277130231@qq.com>
+Date:   Mon Dec 19 15:03:12 2022 +0800
+
+    小夹夹tryyy001
+
+[33mcommit 0cef1ffa800b6d8d76b381dcd9967d897814c7f0[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Mon Dec 19 11:35:57 2022 +0800
+
+    我添加了一个NPC测试系统
+
+[33mcommit 8ab10932e3df8881013e4732a31f06c5f71184f4[m
+Author: Joreoooo <2277130231@qq.com>
+Date:   Sat Dec 17 12:36:10 2022 +0800
+
+    12-17小夹push
+
+[33mcommit a384ea8fcb1d9afb6aada1cb2c9053a5da3c6e8b[m
+Merge: 39a4e6c7 0d0b6000
+Author: goodnighttt <2360537220@qq.com>
+Date:   Sat Dec 17 12:20:03 2022 +0800
+
+    Merge branch 'master' of github.com:goodnighttt/Final-Boss
+
+[33mcommit 39a4e6c76c103c17cd64d439f33256a626adc3ad[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Sat Dec 17 12:14:48 2022 +0800
+
+    12-17提交更新
+
+[33mcommit 0d0b6000ec50f9d8e0f2e601cd625c9530872cfc[m
+Author: Joreoooo <2277130231@qq.com>
+Date:   Sat Dec 3 07:33:12 2022 +0800
+
+    测试小组成员能否完成Push操作
+
+[33mcommit 4deec96e40d109b1a4d866e13dfa174da92b1ecf[m
+Author: Joreoooo <119600730+Joreoooo@users.noreply.github.com>
+Date:   Sat Dec 3 07:02:09 2022 +0800
+
+    Update test.txt
+
+[33mcommit a1aee36c408e6948df9e7326bb091ffb8b5a2296[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Fri Dec 2 23:35:11 2022 +0800
+
+    我修改了Unity版本为2021.03.12
+
+[33mcommit 1c9bd6a8fd236fe534354b7013ffbfe89808c0b0[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Fri Dec 2 22:16:37 2022 +0800
+
+    修复了史莱姆AI的相关功能
+
+[33mcommit 09c2e98dce3afdc9ba9ca1e2acd87892ae0bf471[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Fri Dec 2 11:01:57 2022 +0800
+
+    我修改了这个测试文档
+
+[33mcommit 389527c0af70868fc014171ecd5ffba5291a52bb[m
+Author: goodnighttt <85438203+goodnighttt@users.noreply.github.com>
+Date:   Fri Dec 2 10:45:03 2022 +0800
+
+    Create test.txt
+
+[33mcommit cdbfb79b7209da253f16ebbc2a123b71fc9ab22f[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Thu Dec 1 23:04:31 2022 +0800
+
+    第一次重新测试
+
+[33mcommit 61f895027b56c4571f9547216ee93879a60de4dc[m
+Author: goodnighttt <2360537220@qq.com>
+Date:   Thu Dec 1 21:23:56 2022 +0800
+
+    Here is Run&Jia's first Unity project

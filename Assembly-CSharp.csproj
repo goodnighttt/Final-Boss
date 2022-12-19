@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9153E044-D448-EE9D-B162-94E348D69293}</ProjectGuid>
+    <ProjectGuid>{0F261406-C589-0E6E-E1DA-5C4384882E6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,73 +53,140 @@
     <UnityVersion>2021.3.12f1c2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
     <Compile Include="Assets\Scripts\Run\ButtonClick.cs" />
     <Compile Include="Assets\Scripts\Run\test_mera_ch.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\ColorGradingCurve.cs" />
     <Compile Include="Assets\Suriyun\Scripts\MouseOrbitImproved.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\MaterialFactory.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingProfile.cs" />
     <Compile Include="Assets\Scripts\Jia\Player_C.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingContext.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\MinAttribute.cs" />
+    <Compile Include="Assets\Scripts\NPCUI.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\BloomComponent.cs" />
     <Compile Include="Assets\Scripts\Run\play_anim_on_ui_button.cs" />
     <Compile Include="Assets\Scripts\Run\Player.cs" />
     <Compile Include="Assets\Scripts\Run\SpringGrid.cs" />
     <Compile Include="Assets\Scripts\Run\OnCreate.cs" />
     <Compile Include="Assets\Scripts\Jia\UI\UIManager.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\DitheringComponent.cs" />
     <Compile Include="Assets\Scripts\Jia\sizeMeasure.cs" />
     <Compile Include="Assets\Scripts\Run\ThirdPerson.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingComponent.cs" />
     <Compile Include="Assets\Scripts\Run\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Run\NPCInteract.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Scripts\Run\Node.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\Scripts\Run\MazeRenderer.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
     <Compile Include="Assets\Scripts\Run\PlayerCharacter.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\FxaaComponent.cs" />
     <Compile Include="Assets\Scripts\Run\Maze.cs" />
     <Compile Include="Assets\Scripts\Run\Enemy_AI.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\GetSetAttribute.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ChromaticAberrationComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\BuiltinDebugViewsComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballGroupAttribute.cs" />
     <Compile Include="Assets\Scripts\Run\Hit.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingBehaviour.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\EyeAdaptationModel.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\GraphicsUtils.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\VignetteComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\FogModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\VignetteModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Scripts\Run\MaterialChange.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingModel.cs" />
     <Compile Include="Assets\Scripts\Run\Farm_Player.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\Scripts\Run\Slime.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\UserLutModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\MotionBlurModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\UserLutComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
     <Compile Include="Assets\Scripts\Jia\UI\UI_CreatePanel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
+    <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\AnimalController.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ScreenSpaceReflectionModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\DepthOfFieldComponent.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
     <Compile Include="Assets\Scripts\Jia\UI\UI_MainPanel.cs" />
     <Compile Include="Assets\Scripts\Run\LookAtPlayer.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\FogComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\DepthOfFieldModel.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\AmbientOcclusionComponent.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\RotateStand.cs" />
-    <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\AnimalController.cs" />
+    <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\DitheringModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaOutline.cginc" />
     <None Include="Assets\Resources\Create\crop\Cartoon_Farm_Crops\README.txt" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
     <None Include="Assets\Prefabs\home\Readme.txt" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+    <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaMain.cginc" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\readme.txt" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\readme.txt" />
+    <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloOutlineUtil.hlsl" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaSkin.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloInvLerpRemap.hlsl" />
     <None Include="Assets\Prefabs\island\Readme.txt" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
     <None Include="Assets\Prefabs\island\Shaders\SimpleWater.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+    <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
     <None Include="Assets\Resources\Shader\DiffuseWrap.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Suriyun\README.txt" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
+    <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -827,7 +894,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B369BAD9-0024-588D-6FDD-F1FBA437F047}</Project>
+      <Project>{9DC1CD66-BB21-7E76-DA64-1BD6996D8E79}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
