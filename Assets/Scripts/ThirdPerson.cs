@@ -47,7 +47,7 @@ public class ThirdPerson : MonoBehaviour
        // Yaw += Input.GetAxis("CameraRateX") * cameraRotatingSpeed * Time.deltaTime;
         Pitch += Input.GetAxis("Mouse Y") * mouseSensitivity;
        // Pitch += Input.GetAxis("CameraRateY") * cameraRotatingSpeed * Time.deltaTime;
-        Pitch = Mathf.Clamp(Pitch, -90, 90);
+        Pitch = Mathf.Clamp(Pitch, -30, 90);//本语句可以限制摄像镜头的旋转角度
 
         transform.rotation = Quaternion.Euler(Pitch, Yaw, 0);
     }
@@ -55,7 +55,7 @@ public class ThirdPerson : MonoBehaviour
     private void UpdatePosition()
     {
         Vector3 position = _target.position;
-        float newY = Mathf.Lerp(transform.position.y, _target.position.y, Time.deltaTime * cameraYSpeed);
+        float newY = Mathf.Lerp(transform.position.y, _target.position.y+1, Time.deltaTime * cameraYSpeed);
         transform.position = new Vector3(position.x, newY, position.z);
     }
 

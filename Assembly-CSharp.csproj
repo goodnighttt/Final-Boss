@@ -60,7 +60,9 @@
     <Compile Include="Assets\Scripts\ButtonClick.cs" />
     <Compile Include="Assets\Scripts\test_mera_ch.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
+    <Compile Include="Assets\Suriyun\Scripts\MouseOrbitImproved.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
+    <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
     <Compile Include="Assets\Scripts\play_anim_on_ui_button.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\SpringGrid.cs" />
@@ -73,23 +75,39 @@
     <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
     <Compile Include="Assets\Scripts\Maze.cs" />
     <Compile Include="Assets\Scripts\Enemy_AI.cs" />
+    <Compile Include="Assets\Scripts\Hit.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
     <Compile Include="Assets\Scripts\MaterialChange.cs" />
     <Compile Include="Assets\Scripts\Farm_Player.cs" />
     <Compile Include="Assets\Scripts\Slime.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
+    <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaOutline.cginc" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
     <None Include="Assets\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eyelash_blend.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaMain.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\readme.txt" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada_blend.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\readme.txt" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloOutlineUtil.hlsl" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaSkin.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloInvLerpRemap.hlsl" />
     <None Include="Assets\Resource\Shader\DiffuseWrap.shader" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_Shared.hlsl" />
+    <None Include="Assets\Suriyun\README.txt" />
+    <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_eye_blend.shader" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
