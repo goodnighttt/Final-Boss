@@ -276,7 +276,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         //»»ÎäÆ÷
-        if (Input.GetKeyDown(KeyCode.Q))
+        if (Input.GetKeyDown(KeyCode.R))
         {
             SwitchWeapon();
         }

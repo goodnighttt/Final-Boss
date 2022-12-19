@@ -63,11 +63,14 @@
     <Compile Include="Assets\Suriyun\Scripts\MouseOrbitImproved.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
     <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
+    <Compile Include="Assets\Scripts\Jia\Player_C.cs" />
     <Compile Include="Assets\Scripts\Run\play_anim_on_ui_button.cs" />
     <Compile Include="Assets\Scripts\Run\Player.cs" />
     <Compile Include="Assets\Scripts\Run\SpringGrid.cs" />
     <Compile Include="Assets\Scripts\Run\OnCreate.cs" />
+    <Compile Include="Assets\Scripts\Jia\UI\UIManager.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
+    <Compile Include="Assets\Scripts\Jia\sizeMeasure.cs" />
     <Compile Include="Assets\Scripts\Run\ThirdPerson.cs" />
     <Compile Include="Assets\Scripts\Run\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Run\NPCInteract.cs" />
@@ -81,16 +84,19 @@
     <Compile Include="Assets\Scripts\Run\MaterialChange.cs" />
     <Compile Include="Assets\Scripts\Run\Farm_Player.cs" />
     <Compile Include="Assets\Scripts\Run\Slime.cs" />
+    <Compile Include="Assets\Scripts\Jia\UI\UI_CreatePanel.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
+    <Compile Include="Assets\Scripts\Jia\UI\UI_MainPanel.cs" />
     <Compile Include="Assets\Scripts\Run\LookAtPlayer.cs" />
-    <Compile Include="Assets\Scripts\Jia\Player_C.cs" />
-    <Compile Include="Assets\Scripts\Jia\sizeMeasure.cs" />
+    <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\RotateStand.cs" />
+    <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\AnimalController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloZOffset.hlsl" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_akarami_blend.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaOutline.cginc" />
+    <None Include="Assets\Resources\Create\crop\Cartoon_Farm_Crops\README.txt" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
