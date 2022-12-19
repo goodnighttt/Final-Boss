@@ -12,15 +12,26 @@ public class ThirdPerson : MonoBehaviour
 
     public float cameraYSpeed = 5;
     private Transform _target;
-    private Transform _camera;
-
+    private Transform _camera1;
+    private Transform _camera2;
+    //public Camera camera1; 
+    //public Camera camera2;
+    public Camera[] cameralist;
     [SerializeField]
     private AnimationCurve _armLengthCurve;
-
+    private int camindex = 0;
 
     private void Awake()
     {
-        _camera = transform.GetChild(0);//获得空物体下的子物体Camera
+        //_camera1 = transform.GetChild(0);//获得空物体下的子物体Camera
+        //_camera2 = transform.GetChild(1);
+        //_camera2.enabled = false;
+        cameralist[0].enabled = true;
+        cameralist[1].enabled = false;
+        //camera1.enabled = true;
+        //camera2.enabled = false;
+        _camera1 = cameralist[0].transform;
+        //_camera2 = cameralist[1].transform;
     }
 
     void Start()
@@ -39,7 +50,10 @@ public class ThirdPerson : MonoBehaviour
         UpdateRotation();
         UpdatePosition();
         UpdateArmLength();
+        ChangeView();
     }
+
+    
 
     private void UpdateRotation()
     {
@@ -62,6 +76,36 @@ public class ThirdPerson : MonoBehaviour
 
     private void UpdateArmLength()
     {
-        _camera.localPosition = new Vector3(0,0, _armLengthCurve.Evaluate(Pitch) * -1);
+        _camera1.localPosition = new Vector3(0,0, _armLengthCurve.Evaluate(Pitch) * -1);
+    }
+
+    private void ChangeView()
+    {
+        if(Input.GetKeyDown(KeyCode.V))
+        {
+            //_camera1 = transform.GetChild(1);//获得空物体下的俯视视角Camera
+            camindex += 1;
+            if(camindex % 2 == 0)
+            {
+                cameralist[0].enabled = true;
+                cameralist[1].enabled = false;
+                cameralist[0].fieldOfView = 60;
+                _camera1 = cameralist[0].transform;
+            }
+            else
+            {
+                cameralist[1].enabled = true;
+                cameralist[0].enabled = false;
+                cameralist[1].fieldOfView = 80;
+                _camera1 = cameralist[1].transform;
+            }
+            //camindex = camindex % 2;
+            //cameralist[camindex].enabled = true;
+            
+            ////_camera2.enabled = true;
+            
+            //_camera1 = _camera2.transform;
+            
+        }
     }
 }

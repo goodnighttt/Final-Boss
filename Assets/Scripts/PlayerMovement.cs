@@ -275,9 +275,24 @@ public class PlayerMovement : MonoBehaviour
             anim.SetBool("DigB", false);
         }
 
-        if (Input.GetKeyDown(KeyCode.E))
+        //换武器
+        if (Input.GetKeyDown(KeyCode.Q))
         {
             SwitchWeapon();
+        }
+
+        //与NPC进行交互
+        if(Input.GetKeyDown(KeyCode.E))
+        {
+            float interactRange = 2f;
+            Collider[] colliderArray = Physics.OverlapSphere(transform.position, interactRange);
+            foreach(Collider collider in colliderArray)
+            {
+                if(collider.TryGetComponent(out NPCInteract nPCInteract))
+                {
+                    nPCInteract.Interact();
+                }
+            }
         }
     
     }

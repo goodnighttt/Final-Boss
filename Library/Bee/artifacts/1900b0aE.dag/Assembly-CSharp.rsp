@@ -373,6 +373,7 @@
 "Assets/Scripts/Maze.cs"
 "Assets/Scripts/MazeRenderer.cs"
 "Assets/Scripts/Node.cs"
+"Assets/Scripts/NPCInteract.cs"
 "Assets/Scripts/OnCreate.cs"
 "Assets/Scripts/Player.cs"
 "Assets/Scripts/PlayerCharacter.cs"
