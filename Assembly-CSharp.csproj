@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0F261406-C589-0E6E-E1DA-5C4384882E6C}</ProjectGuid>
+    <ProjectGuid>{9153E044-D448-EE9D-B162-94E348D69293}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,36 +53,38 @@
     <UnityVersion>2021.3.12f1c2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
-    <Compile Include="Assets\Scripts\ButtonClick.cs" />
-    <Compile Include="Assets\Scripts\test_mera_ch.cs" />
+    <Compile Include="Assets\Scripts\Run\ButtonClick.cs" />
+    <Compile Include="Assets\Scripts\Run\test_mera_ch.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\GameManager.cs" />
     <Compile Include="Assets\Suriyun\Scripts\MouseOrbitImproved.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\FreeLookCam.cs" />
     <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
-    <Compile Include="Assets\Scripts\play_anim_on_ui_button.cs" />
-    <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\SpringGrid.cs" />
-    <Compile Include="Assets\Scripts\OnCreate.cs" />
+    <Compile Include="Assets\Scripts\Run\play_anim_on_ui_button.cs" />
+    <Compile Include="Assets\Scripts\Run\Player.cs" />
+    <Compile Include="Assets\Scripts\Run\SpringGrid.cs" />
+    <Compile Include="Assets\Scripts\Run\OnCreate.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\PivotBasedCameraRig.cs" />
-    <Compile Include="Assets\Scripts\ThirdPerson.cs" />
-    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
-    <Compile Include="Assets\Scripts\Node.cs" />
-    <Compile Include="Assets\Scripts\MazeRenderer.cs" />
-    <Compile Include="Assets\Scripts\PlayerCharacter.cs" />
-    <Compile Include="Assets\Scripts\Maze.cs" />
-    <Compile Include="Assets\Scripts\Enemy_AI.cs" />
-    <Compile Include="Assets\Scripts\Hit.cs" />
+    <Compile Include="Assets\Scripts\Run\ThirdPerson.cs" />
+    <Compile Include="Assets\Scripts\Run\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\Run\NPCInteract.cs" />
+    <Compile Include="Assets\Scripts\Run\Node.cs" />
+    <Compile Include="Assets\Scripts\Run\MazeRenderer.cs" />
+    <Compile Include="Assets\Scripts\Run\PlayerCharacter.cs" />
+    <Compile Include="Assets\Scripts\Run\Maze.cs" />
+    <Compile Include="Assets\Scripts\Run\Enemy_AI.cs" />
+    <Compile Include="Assets\Scripts\Run\Hit.cs" />
     <Compile Include="Assets\Kawaii Slimes\Cameras\Scripts\AbstractTargetFollower.cs" />
-    <Compile Include="Assets\Scripts\MaterialChange.cs" />
-    <Compile Include="Assets\Scripts\Farm_Player.cs" />
-    <Compile Include="Assets\Scripts\Slime.cs" />
+    <Compile Include="Assets\Scripts\Run\MaterialChange.cs" />
+    <Compile Include="Assets\Scripts\Run\Farm_Player.cs" />
+    <Compile Include="Assets\Scripts\Run\Slime.cs" />
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\EnemyAi.cs" />
-    <Compile Include="Assets\Scripts\LookAtPlayer.cs" />
-    <Compile Include="Assets\Scripts\NPCInteract.cs" />
+    <Compile Include="Assets\Scripts\Run\LookAtPlayer.cs" />
+    <Compile Include="Assets\Scripts\Jia\Player_C.cs" />
+    <Compile Include="Assets\Scripts\Jia\sizeMeasure.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
@@ -92,6 +94,7 @@
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair_ds.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hada.shader" />
+    <None Include="Assets\Prefabs\home\Readme.txt" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_LightingEquation.hlsl" />
     <None Include="Assets\Kawaii Slimes\Cameras\CameraGuidelines.txt" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku_ds.shader" />
@@ -104,7 +107,9 @@
     <None Include="Assets\Suriyun\UnityChanShader\Shader\CharaSkin.cginc" />
     <None Include="Assets\Kawaii Slimes\Shader\Unity-chan Shader Ver 1.2.1\Unitychan_chara_eye.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\NiloInvLerpRemap.hlsl" />
-    <None Include="Assets\Resource\Shader\DiffuseWrap.shader" />
+    <None Include="Assets\Prefabs\island\Readme.txt" />
+    <None Include="Assets\Prefabs\island\Shaders\SimpleWater.shader" />
+    <None Include="Assets\Resources\Shader\DiffuseWrap.shader" />
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_hair.shader" />
     <None Include="Assets\Kawaii Slimes\Shader\UnityURPToonLitShader\SimpleURPToonLitOutlineExample_Shared.hlsl" />
     <None Include="Assets\Suriyun\README.txt" />
@@ -816,7 +821,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9DC1CD66-BB21-7E76-DA64-1BD6996D8E79}</Project>
+      <Project>{B369BAD9-0024-588D-6FDD-F1FBA437F047}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
