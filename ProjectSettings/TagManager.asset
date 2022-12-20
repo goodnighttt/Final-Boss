@@ -12,6 +12,7 @@ TagManager:
   - Pig
   - Soil
   - CropLv2
+  - Enemy
   layers:
   - Default
   - TransparentFX

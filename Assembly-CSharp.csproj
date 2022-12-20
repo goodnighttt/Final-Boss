@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{9153E044-D448-EE9D-B162-94E348D69293}</ProjectGuid>
+    <ProjectGuid>{0F261406-C589-0E6E-E1DA-5C4384882E6C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.12f1c2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
@@ -71,6 +71,7 @@
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ScreenSpaceReflectionComponent.cs" />
     <Compile Include="Assets\Suriyun\Scripts\AnimatorController.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingProfile.cs" />
+    <Compile Include="Assets\Scripts\Run\Menu.cs" />
     <Compile Include="Assets\Scripts\Jia\Player_C.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingContext.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\MotionBlurComponent.cs" />
@@ -114,6 +115,7 @@
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\VignetteComponent.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\FogModel.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\TaaComponent.cs" />
+    <Compile Include="Assets\Scripts\Run\SaveFile.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\VignetteModel.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Scripts\Run\MaterialChange.cs" />
@@ -904,7 +906,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{B369BAD9-0024-588D-6FDD-F1FBA437F047}</Project>
+      <Project>{9DC1CD66-BB21-7E76-DA64-1BD6996D8E79}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>

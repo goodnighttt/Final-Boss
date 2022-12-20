@@ -39,7 +39,11 @@ public class UI_CreateItem : MonoBehaviour
         Player_C.Instance.cropPrefab=confItem.Prefab;
         Player_C.Instance.cropCost = confItem.Money;
         UI_CreatePanel.Instance.SetActive(false);
+        //Debug.Log("已选择作物");
+        GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ThirdPerson>().enabled = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<Player_C>().enabled = true;
+        GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = true;
+        Time.timeScale = 1f;
 
-        
     }
 }

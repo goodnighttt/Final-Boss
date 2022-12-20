@@ -28,9 +28,12 @@ public class UI_MainPanel : MonoBehaviour
         {
             Debug.Log("Q");
             UIManager.Instance.ShowCreatePanel();
-            //    GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ThirdPerson>().enabled = false;
-            //    GameObject.FindGameObjectWithTag("Player").GetComponent<Player_C>().enabled = false;
-            //    Time.timeScale = 0f;
+
+            //限制鼠标和人物的移动 并使游戏暂停
+            GameObject.FindGameObjectWithTag("MainCamera").GetComponent<ThirdPerson>().enabled = false;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Player_C>().enabled = false;
+            GameObject.FindGameObjectWithTag("Player").GetComponent<PlayerMovement>().enabled = false;
+            Time.timeScale = 0f;
         }
     }
 }
