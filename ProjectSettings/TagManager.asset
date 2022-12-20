@@ -6,6 +6,12 @@ TagManager:
   tags:
   - Ground
   - Slime
+  - Sheep
+  - Cow
+  - Chicken
+  - Pig
+  - Soil
+  - CropLv2
   layers:
   - Default
   - TransparentFX

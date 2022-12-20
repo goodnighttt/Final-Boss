@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{0F261406-C589-0E6E-E1DA-5C4384882E6C}</ProjectGuid>
+    <ProjectGuid>{9153E044-D448-EE9D-B162-94E348D69293}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -53,7 +53,7 @@
     <UnityVersion>2021.3.12f1c2</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
+    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Professional\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Kawaii Slimes\Scripts\AI\Face.cs" />
@@ -87,6 +87,7 @@
     <Compile Include="Assets\Scripts\Run\NPCInteract.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\ColorGradingComponent.cs" />
     <Compile Include="Assets\Scripts\Run\Node.cs" />
+    <Compile Include="Assets\Scripts\Jia\UI\CreatePanel\UI_CreateItem.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\BloomModel.cs" />
     <Compile Include="Assets\Scripts\Run\MazeRenderer.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Attributes\TrackballAttribute.cs" />
@@ -111,6 +112,7 @@
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\GrainModel.cs" />
     <Compile Include="Assets\Scripts\Run\MaterialChange.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\PostProcessingModel.cs" />
+    <Compile Include="Assets\Scripts\Jia\Conf\CreateConf.cs" />
     <Compile Include="Assets\Scripts\Run\Farm_Player.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\GrainComponent.cs" />
     <Compile Include="Assets\Scripts\Run\Slime.cs" />
@@ -120,7 +122,7 @@
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AmbientOcclusionModel.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\BuiltinDebugViewsModel.cs" />
-    <Compile Include="Assets\Scripts\Jia\UI\UI_CreatePanel.cs" />
+    <Compile Include="Assets\Scripts\Jia\UI\CreatePanel\UI_CreatePanel.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Components\EyeAdaptationComponent.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ChromaticAberrationModel.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\ColorGradingModel.cs" />
@@ -136,6 +138,13 @@
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\RotateStand.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\Tomato.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\Corn.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\Carrot.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\Eggplant.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\Pumpkin.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\turnip.cs" />
+    <Compile Include="Assets\Scripts\Jia\crop\BaseCrop.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />
@@ -894,7 +903,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
-      <Project>{9DC1CD66-BB21-7E76-DA64-1BD6996D8E79}</Project>
+      <Project>{B369BAD9-0024-588D-6FDD-F1FBA437F047}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
   </ItemGroup>
