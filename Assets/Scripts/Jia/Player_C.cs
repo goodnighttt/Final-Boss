@@ -12,6 +12,8 @@ public class Player_C : MonoBehaviour
     public bool CanCrop;//种农作物判断
     public bool WantCrop;
     public bool CanGetCrop;//收获农作物判断
+    private GameObject oldCrop;
+   
     //碰撞到的土地的位置，用于种农作物
     private Vector3 soilPos;
     public GameObject cropPrefab;//农作物模型
@@ -49,6 +51,10 @@ public class Player_C : MonoBehaviour
                 makeCrop();
             }
 
+
+        }
+        if (Input.GetKeyDown(KeyCode.X))
+        {
             if (CanGetCrop == true)
             {
                 getCrop();
@@ -92,6 +98,8 @@ public class Player_C : MonoBehaviour
         if (collision.gameObject.tag == "CropLv2")
         {
             CanGetCrop = true;
+            oldCrop = collision.gameObject;
+
         }
         else
         {
@@ -169,6 +177,7 @@ public class Player_C : MonoBehaviour
     //收获
     public void getCrop()
     {
-
+        Destroy(oldCrop);
+        UI_MainPanel.Instance.Money.text = (int.Parse(UI_MainPanel.Instance.Money.text) +200).ToString();
     }
 }

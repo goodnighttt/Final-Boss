@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Eggplant : BaseCrop
 {
-    public override int lifeTime => 180;
+    public override int lifeTime => 3;
 
     public List<GameObject> prefabs = new List<GameObject>();
     public GameObject tempCrop;

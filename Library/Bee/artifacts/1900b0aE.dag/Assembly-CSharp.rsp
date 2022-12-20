@@ -419,6 +419,7 @@
 "Assets/Scripts/Jia/crop/Pumpkin.cs"
 "Assets/Scripts/Jia/crop/Tomato.cs"
 "Assets/Scripts/Jia/crop/turnip.cs"
+"Assets/Scripts/Jia/GetCropBillBoard.cs"
 "Assets/Scripts/Jia/Player_C.cs"
 "Assets/Scripts/Jia/sizeMeasure.cs"
 "Assets/Scripts/Jia/UI/CreatePanel/UI_CreateItem.cs"

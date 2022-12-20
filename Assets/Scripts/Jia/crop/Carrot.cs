@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Carrot : BaseCrop
 {
-    public override int lifeTime => 40;
+    public override int lifeTime => 3;
     public List<GameObject> prefabs = new List<GameObject>();
     public GameObject tempCrop;
 
