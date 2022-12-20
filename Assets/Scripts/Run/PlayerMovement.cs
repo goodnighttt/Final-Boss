@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
+using UnityEngine.UI;
 [RequireComponent(typeof(Rigidbody))]//挂载物体上要求有刚体
 public class PlayerMovement : MonoBehaviour
 {
@@ -48,8 +48,17 @@ public class PlayerMovement : MonoBehaviour
     public int weaponIndex = 0;
     Transform pos;
     public string state = "idle";
+
+
     //血量值
-    float HP = 100;
+    //float HP = 100;
+    private int HP = 100;
+    public Slider healthBar;
+
+    //玩家受伤恢复时间
+    public float proTime = 0.0f;
+    public float NextTime = 0.0f;
+    private bool isatk = false;
     private void Awake()
     {
         _rigidbody = GetComponent<Rigidbody>();
@@ -75,6 +84,7 @@ public class PlayerMovement : MonoBehaviour
     {
         if(other.gameObject.name == "Eye")
         {
+            //Debug.Log("看到了");
             other.transform.parent.GetComponent<Slime>().checkSight();//检查视线
         }
 
@@ -150,18 +160,24 @@ public class PlayerMovement : MonoBehaviour
         if (HP <= 0)
         {
            
+            //state = "die";
+            anim.SetBool("Die",true);
+            //faceMaterial.SetTexture(TexID,Tex);
+            GameObject.Destroy(gameObject, 2f);
         }
         else
         {
             //GetComponent<Material>().color = new Color(255, 255, 255, 0.1f);
             //state = "damage";
-            //anim.SetTrigger("Damage");
 
+            anim.Play("Damage", 0, 0f);
             GetComponent<Rigidbody>().freezeRotation = true;
             //利用刚体组件添加爆炸力
             GetComponent<Rigidbody>().AddExplosionForce(200, transform.position, 5);
-
             
+           
+
+
 
         }
     }
@@ -191,7 +207,22 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+        //if(isatk == true)
+        //{
+        //    anim.Play("Damage", 0, 0f);
+        //    proTime = Time.fixedTime;
+        //    //Debug.Log(proTime);
+        //    if (proTime >= 1)
+        //    {
+        //        anim.SetBool("Damage", false);
+        //        NextTime = proTime;
+        //        //proTime = 0;
+        //        isatk = false;
+        //    }
+        //}
+        
+
+        healthBar.value = HP;
         Hit = false;
         if (CurrentInput.magnitude != 0)
         {

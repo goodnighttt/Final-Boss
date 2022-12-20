@@ -148,6 +148,7 @@
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\AntialiasingModel.cs" />
     <Compile Include="Assets\Resources\Create\animal\Easy Primitive Animals\FarmEdition\Scripts\RotateStand.cs" />
     <Compile Include="Assets\LowpolySimpleHouse\PostProcessing\Runtime\Models\DitheringModel.cs" />
+    <Compile Include="Assets\Scripts\Run\CreateEnemy.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Suriyun\UnityChanShader\Shader\Unitychan_chara_fuku.shader" />

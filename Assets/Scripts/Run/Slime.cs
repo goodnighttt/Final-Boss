@@ -48,11 +48,20 @@ public class Slime : MonoBehaviour
 
 
     public Slider healthBar;
+
+    //检测是否碰到水
+    public Transform GroundCheck;
+    public float CheckRadius = 0.3f;
+    private bool IsGround;
+    public LayerMask layerMask;
+    public bool IsWater;
+
     public void TakeDamage(int damageAmount)
     {
         HP -= damageAmount;
         if(HP <= 0)
         {
+            UI_MainPanel.Instance.Money.text = (int.Parse(UI_MainPanel.Instance.Money.text) + 100).ToString();
             nav.enabled = false;
             alive = false;
             //state = "die";
@@ -101,6 +110,27 @@ public class Slime : MonoBehaviour
         sound.Play();
     }
 
+    //private void OnTriggerEnter(Collider other)
+    //{
+    //    if (other.gameObject.tag == "Water")
+    //    {
+    //        nav.enabled = false;
+    //        alive = false;
+    //        //state = "die";
+    //        anim.SetTrigger("die");
+    //        //faceMaterial.SetTexture(TexID,Tex);
+    //        GameObject.Destroy(gameObject, 2f);
+
+    //    }
+
+    //    //if(other.tag == "Slime")
+    //    //{
+    //    //    Debug.Log("打一下");
+    //    //    other.GetComponent<Slime>().TakeDamage(20);
+    //    //}
+    //}
+
+
     //检测AI是否可以看到玩家
     public void checkSight()
     {
@@ -110,21 +140,22 @@ public class Slime : MonoBehaviour
 
         if(alive && isatk == false)
         {
-            RaycastHit ray;
-            if(Physics.Linecast(eyes.position,player.transform.position,out ray))
+            if (state != "kill")
             {
-                //print("hit" + ray.collider.gameObject.name);
-                if(ray.collider.gameObject.transform.parent.name == "Mesh")
-                {
-                    if(state != "kill")
-                    {
-                        state = "chase";
-                        nav.speed = 2f;
-                        anim.speed = 2f;
-                        
-                    }
-                }
+                state = "chase";
+                nav.speed = 2f;
+                anim.speed = 2f;
+
             }
+            //RaycastHit ray;
+            //if(Physics.Linecast(eyes.position,player.transform.position,out ray))
+            //{
+            //    //print("hit" + ray.collider.gameObject.name);
+            //    if(ray.collider.gameObject.transform.parent.name == "Mesh")
+            //    {
+                    
+            //    }
+            //}
         }
     }
 
@@ -164,6 +195,7 @@ public class Slime : MonoBehaviour
     void Update()
     {
         healthBar.value = HP;
+        IsWater = Physics.CheckSphere(GroundCheck.position, CheckRadius, layerMask);
         //Debug.Log(state);
         //Debug.DrawLine(eyes.position, player.transform.position, Color.green);
         //Debug.Log(nav.remainingDistance);
@@ -175,6 +207,17 @@ public class Slime : MonoBehaviour
                 isatk = false;
                 timer = 4.0f;
             }
+        }
+
+        if (IsWater == true)
+        {
+            Debug.Log("碰到水了");
+            nav.enabled = false;
+            alive = false;
+            //state = "die";
+            anim.SetTrigger("die");
+            //faceMaterial.SetTexture(TexID,Tex);
+            GameObject.Destroy(gameObject, 2f);
         }
 
         if (alive)
@@ -291,7 +334,7 @@ public class Slime : MonoBehaviour
                 anim.transform.LookAt(vecLookAtPos);
 
                 proTime = Time.fixedTime;
-                if (proTime - NextTime >= 2.5)
+                if (proTime - NextTime >= 3)
                 //if (proTime - NextTime > 3) 
                 {
                     float distance = Vector3.Distance(transform.position, player.transform.position);

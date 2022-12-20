@@ -113,7 +113,7 @@ public class Player_C : MonoBehaviour
                 // float offset = (build.Size / 2) + (tempBuild.Size / 2);
                 Vector3 up = build.transform.position + new Vector3(0, 0, 2.4f);
                 Vector3 down = build.transform.position + new Vector3(0, 0, -2.4f);
-                Vector3 left = build.transform.position + new Vector3(-2.4f, 0, 0);
+                Vector3 left = build.transform.position + new Vector3(-2.4f,0, 0);
                 Vector3 right = build.transform.position + new Vector3(2.4f, 0, 0);
                 Vector3[] points = new Vector3[] { up, down, left, right };
 

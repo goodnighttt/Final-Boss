@@ -13,6 +13,7 @@ TagManager:
   - Soil
   - CropLv2
   - Enemy
+  - Water
   layers:
   - Default
   - TransparentFX

@@ -428,6 +428,7 @@
 "Assets/Scripts/Jia/UI/UI_MainPanel.cs"
 "Assets/Scripts/NPCUI.cs"
 "Assets/Scripts/Run/ButtonClick.cs"
+"Assets/Scripts/Run/CreateEnemy.cs"
 "Assets/Scripts/Run/Enemy_AI.cs"
 "Assets/Scripts/Run/Farm_Player.cs"
 "Assets/Scripts/Run/Hit.cs"
