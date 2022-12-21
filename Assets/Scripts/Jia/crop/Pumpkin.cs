@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Pumpkin : BaseCrop
 {
-    public override int lifeTime => 3;
+    public override int lifeTime => 150;
 
     public List<GameObject> prefabs = new List<GameObject>();
     public GameObject tempCrop;

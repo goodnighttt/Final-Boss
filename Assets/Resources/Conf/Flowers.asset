@@ -19,12 +19,6 @@ MonoBehaviour:
   - Name: "\u5411\u65E5\u8475"
     Money: 50
     Prefab: {fileID: 4400482160171448048, guid: 6b23b3a88bf55494db38894f6a6d4f29, type: 3}
-  - Name: "\u5587\u53ED\u82B1"
-    Money: 15
-    Prefab: {fileID: 8954726919292774957, guid: eae42a57b046b1a42a79ae6319bccca3, type: 3}
-  - Name: "\u83CA\u82B1"
-    Money: 15
-    Prefab: {fileID: 100000, guid: 821158ae724ce854e920539f935295b8, type: 3}
   - Name: "\u8611\u83C7\u82B1\uFF08\u7D2B\uFF09"
     Money: 40
     Prefab: {fileID: 7749838506462483410, guid: d354c41a99993964baca0254487708d1, type: 3}

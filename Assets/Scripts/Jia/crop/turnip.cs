@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class turnip : BaseCrop
 {
-    public override int lifeTime => 200;
+    public override int lifeTime => 100;
     public List<GameObject> prefabs = new List<GameObject>();
     public GameObject tempCrop;
 

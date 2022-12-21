@@ -95,7 +95,7 @@ public class Player_C : MonoBehaviour
             crop_Empty.SetActive(true);
             Destroy(crop_Empty.GetComponent<Rigidbody>());
             Destroy(crop_Empty.GetComponent<MeshCollider>());
-            crop_Empty.GetComponent<MeshRenderer>().material.color = new Color(255, 255, 255, 0.2f);
+            crop_Empty.GetComponent<MeshRenderer>().material.color = new Color(100, 100, 100, 0.1f);
 
 
             GameObject build = null;
