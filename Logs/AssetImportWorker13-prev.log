@@ -1,0 +1,340 @@
+Using pre-set license
+Built from 'HEAD' branch; Version is '2021.3.12f1c2 (ffeb050254a0) revision 16771845'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22000) 64bit Professional' Language: 'zh' Physical Memory: 16145 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.12f1c2\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker13
+-projectPath
+D:/游戏设计/大作业/Final-Boss
+-logFile
+Logs/AssetImportWorker13.log
+-srvPort
+61944
+Successfully changed project path to: D:/游戏设计/大作业/Final-Boss
+D:/游戏设计/大作业/Final-Boss
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 94.60 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.12f1c2 (ffeb050254a0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/游戏设计/大作业/Final-Boss/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f99)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   30.0.15.1272
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56256
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.12f1c2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008052 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.41 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.693 seconds
+Domain Reload Profiling:
+	ReloadAssembly (694ms)
+		BeginReloadAssembly (82ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (484ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (116ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (273ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (82ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (126ms)
+				ProcessInitializeOnLoadMethodAttributes (55ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008982 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\游戏设计\大作业\Final-Boss\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\游戏设计\大作业\Final-Boss\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.082 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1083ms)
+		BeginReloadAssembly (110ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (844ms)
+			LoadAssemblies (79ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (281ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (384ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (89ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (17ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Shader 'SimpleURPToonLitExample(With Outline)': fallback shader 'Hidden/Universal Render Pipeline/FallbackError' not found
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 1.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3473 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 26 unused Assets / (322.9 KB). Loaded Objects now: 3960.
+Memory consumption went from 215.1 MB to 214.8 MB.
+Total: 5.881800 ms (FindLiveObjects: 0.387500 ms CreateObjectMapping: 0.331500 ms MarkObjects: 4.822200 ms  DeleteObjects: 0.339200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 172856.383126 seconds.
+  path: Assets/Prefabs/island/Materials/Mushroom3Mat.mat
+  artifactKey: Guid(23f92ab09af350146b1d22ca67ed7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/island/Materials/Mushroom3Mat.mat using Guid(23f92ab09af350146b1d22ca67ed7887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9582bde2c7bbe5f19c9e6d69bbd5f79') in 0.158158 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.406381 seconds.
+  path: Assets/Prefabs/shop/Materials/SideWalk Sqaure.mat
+  artifactKey: Guid(7f4b2c11e1a48934f85271e23253007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/shop/Materials/SideWalk Sqaure.mat using Guid(7f4b2c11e1a48934f85271e23253007e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8259ece63898654e76610a407dc22b6') in 0.023939 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Kawaii Slimes/Materials/Slime 1/Slime1_White.mat
+  artifactKey: Guid(8c3f067d97073e844a53d8283b2d3820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Materials/Slime 1/Slime1_White.mat using Guid(8c3f067d97073e844a53d8283b2d3820) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46aac278ac1435c873db2228d1a15a3') in 0.015525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Kawaii Slimes/Materials/Slime 1/Slime1_King.mat
+  artifactKey: Guid(507fed0338ce65948937cd10a0904a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Kawaii Slimes/Materials/Slime 1/Slime1_King.mat using Guid(507fed0338ce65948937cd10a0904a51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cf41b4bc5836b837f8dcb1c30d606ee') in 0.009740 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.722695 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Buildings/SPW_Farm_Bldg_01.fbx
+  artifactKey: Guid(f082ce32976644b4e8a2cc67957e619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Buildings/SPW_Farm_Bldg_01.fbx using Guid(f082ce32976644b4e8a2cc67957e619e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '942c0f7464dd36bae8e2d888b0d5180f') in 0.061438 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.119492 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Apple Tree_02.fbx
+  artifactKey: Guid(184e23b0b2064604dae84b7197ac03b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Apple Tree_02.fbx using Guid(184e23b0b2064604dae84b7197ac03b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfed13d9388d2cb5dc69980606157bd8') in 0.021478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level02.fbx
+  artifactKey: Guid(b316b9ec87ead7e4c91331a832a848a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Sunflower_Level02.fbx using Guid(b316b9ec87ead7e4c91331a832a848a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3afdeac1da82aa84dde364c833207825') in 0.028399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Orange Tree_02.fbx
+  artifactKey: Guid(f72fcb96d35ace64291c2aa0b915bb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Orange Tree_02.fbx using Guid(f72fcb96d35ace64291c2aa0b915bb8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f07de32dd84bddb0b19ce7c829e905') in 0.024595 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.430965 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Young.fbx
+  artifactKey: Guid(615633709ca712c41916e8f271bab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Crop Field/SPW_Farm_Crop_Young.fbx using Guid(615633709ca712c41916e8f271bab1af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9115dd247a683d3dfcfb8347ac7a4dcc') in 0.068635 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Stone/SPW_Natures_Stone_04.fbx
+  artifactKey: Guid(f8cba162b88551d4d94109c5459340de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Stone/SPW_Natures_Stone_04.fbx using Guid(f8cba162b88551d4d94109c5459340de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff4499b284036d8c5216ca5922889e3') in 0.049755 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.085222 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Tree/SPW_Natures_Tree_01.fbx
+  artifactKey: Guid(5b6d8aa8dc3585c4c8d15dca6f67a427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Tree/SPW_Natures_Tree_01.fbx using Guid(5b6d8aa8dc3585c4c8d15dca6f67a427) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '615e0f9edf5451f12ff67fc489148f6d') in 0.032404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Tree/SPW_Natures_Tree_Fir_02.fbx
+  artifactKey: Guid(aafd224178bcd9b4d997eb583d2018c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Tree/SPW_Natures_Tree_Fir_02.fbx using Guid(aafd224178bcd9b4d997eb583d2018c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e42729f20f9b6bd55c28444d2080c43') in 0.045002 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Other/SPW_Natures_Wood.fbx
+  artifactKey: Guid(12f5da21d717c674c9525d0185e5edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Other/SPW_Natures_Wood.fbx using Guid(12f5da21d717c674c9525d0185e5edcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b683b534adac1fcaa44720db33ca2f33') in 0.019265 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.632729 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Stone/SPW_Natures_Stone_09.fbx
+  artifactKey: Guid(0667ce0a09675704d883813ba432bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Stone/SPW_Natures_Stone_09.fbx using Guid(0667ce0a09675704d883813ba432bd29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd70329112ea87468a9fd522303ddcc27') in 0.017632 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Other/SPW_Natures_Mount_07.fbx
+  artifactKey: Guid(1987418c0ce118d4ea9ca68bc11df154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Other/SPW_Natures_Mount_07.fbx using Guid(1987418c0ce118d4ea9ca68bc11df154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e2f79ff2f7a52316d2569f08b4c14bd') in 0.021057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Tree/SPW_Natures_Tree_Dead_02.fbx
+  artifactKey: Guid(db017799146a9f24cba2a7c14111611a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Tree/SPW_Natures_Tree_Dead_02.fbx using Guid(db017799146a9f24cba2a7c14111611a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee7259b841da352371c7efa9d2e51214') in 0.025152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.344888 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_River_Mid.fbx
+  artifactKey: Guid(4ffec7c04f0d85f469cd7a1780186dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_River_Mid.fbx using Guid(4ffec7c04f0d85f469cd7a1780186dc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8645ec2991a7b5a625a7a7f81f23650e') in 0.023897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Textures/Natures/Materials/SPW_Natures_02.mat
+  artifactKey: Guid(4885af26a2504e94187f1f52a939acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Textures/Natures/Materials/SPW_Natures_02.mat using Guid(4885af26a2504e94187f1f52a939acec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd57231b84c822b6d2d989ebea138fd2') in 0.013386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_Concrete.fbx
+  artifactKey: Guid(0d0699f0e3bd18548a56fe44bd1dd51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_Concrete.fbx using Guid(0d0699f0e3bd18548a56fe44bd1dd51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63b7120e7d08ec1f4d868975d0a967e') in 0.023295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.144095 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_Sand_Flat.fbx
+  artifactKey: Guid(e6d075b2ff3f15c47a0a3017bb4568dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_Sand_Flat.fbx using Guid(e6d075b2ff3f15c47a0a3017bb4568dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46bea23d608c91129dffaf9a8cf17d47') in 0.022665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_River_Intersection.fbx
+  artifactKey: Guid(d453a49b91415f54e984a369277c3515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Natures/Terrain/SPW_Terrain_River_Intersection.fbx using Guid(d453a49b91415f54e984a369277c3515) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17b697a5987d0717aed6237ce8868481') in 0.021575 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.221995 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Textures/Farm/Materials/SPW_Vehicle_Land_Tractor_Color03.mat
+  artifactKey: Guid(9e5b268da2069184e89d5613b3f60f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Textures/Farm/Materials/SPW_Vehicle_Land_Tractor_Color03.mat using Guid(9e5b268da2069184e89d5613b3f60f58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b226d520b7a946089a252cbf02c19d37') in 0.013487 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Textures/Farm/Materials/SPW_Vehicle_Land_Tractor_Trailer_Color01.mat
+  artifactKey: Guid(e7c7daa828020e142b24d0fbdd2e5824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Textures/Farm/Materials/SPW_Vehicle_Land_Tractor_Trailer_Color01.mat using Guid(e7c7daa828020e142b24d0fbdd2e5824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f45338ac409bfdc701e9abe05f21f987') in 0.010698 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000065 seconds.
+  path: Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer.fbx
+  artifactKey: Guid(d334e941f4ec09b4ca8eaeec31424b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Environment/SimplePoly Farm.FBX/Models/Farm/Vehicle/SPW_Vehicle_Land_Tractor_Trailer.fbx using Guid(d334e941f4ec09b4ca8eaeec31424b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cb153191e4a683729117687eda35dfa') in 0.049349 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039567 seconds.
+  path: Assets/Resources/Create/crop/Cartoon_Farm_Crops/Materials/Tomato_Plant.mat
+  artifactKey: Guid(e292b51f6375349498f26d572faddc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Resources/Create/crop/Cartoon_Farm_Crops/Materials/Tomato_Plant.mat using Guid(e292b51f6375349498f26d572faddc1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b66eeed64a165a0f288e8f1262ae9431') in 0.018720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Prefabs/island/Materials/TreeGreen2Mat.mat
+  artifactKey: Guid(b6747bf277df0e344ac544c7cfa37c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/island/Materials/TreeGreen2Mat.mat using Guid(b6747bf277df0e344ac544c7cfa37c62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80ac15f9d44374a094e5e5049809c4a2') in 0.011832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.480644 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat
+  artifactKey: Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Advanced.mat using Guid(a5f2339f242f6cc41a982ec55ea3c201) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ee8e2e91d7883c1d424783deff63cae') in 0.019737 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat
+  artifactKey: Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water4/Materials/Water4Simple.mat using Guid(656fde119942645aa8e062e04c119aa1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63ed328f050dfb447e5f94f84580a637') in 0.012937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000082 seconds.
+  path: Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat
+  artifactKey: Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Standard Assets/Environment/Water/Water/Materials/WaterProDaytime.mat using Guid(7350b65a6431f604a8496c39db1ac9c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f1f918fb11a161a47d2729db31dcea2') in 0.015219 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
